@@ -1,0 +1,30 @@
+﻿Build started 1/29/2021 6:52:46 PM.
+Logging verbosity is set to: Normal.     1>Project "E:\GitReposMy\VulkanPlayground\Engine\Engine.vcxproj" on node 2 (Build target(s)).
+     1>PrepareForBuild:
+         Creating directory "E:\GitReposMy\VulkanPlayground\bin\x64\Debug\".
+         Creating directory "x64temp\Debug\Engine.tlog\".
+       InitializeBuildStatus:
+         Creating "x64temp\Debug\Engine.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+       VcpkgTripletSelection:
+         Using triplet "x64-windows" from "F:\GitHub_Repos\vcpkg\installed\x64-windows\"
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\bin\HostX86\x64\CL.exe /c /IE:\VulkanSDK\1.2.162.1\Include /I"F:\GitHub_Repos\vcpkg\installed\x64-windows\include" /ZI /JMC /nologo /W3 /WX- /diagnostics:column /sdl /Od /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /permissive- /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"x64temp\Debug\\" /Fd"x64temp\Debug\vc142.pdb" /Gd /TP /FC /errorReport:prompt Engine.cpp
+         Engine.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\bin\HostX86\x64\link.exe /ERRORREPORT:PROMPT /OUT:"E:\GitReposMy\VulkanPlayground\bin\x64\Debug\Engine.exe" /INCREMENTAL /NOLOGO /LIBPATH:E:\VulkanSDK\1.2.162.1\Lib /LIBPATH:"F:\GitHub_Repos\vcpkg\installed\x64-windows\debug\lib" /LIBPATH:"F:\GitHub_Repos\vcpkg\installed\x64-windows\debug\lib\manual-link" "vulkan-1.lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib "F:\GitHub_Repos\vcpkg\installed\x64-windows\debug\lib\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG:FASTLINK /PDB:"E:\GitReposMy\VulkanPlayground\bin\x64\Debug\Engine.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\GitReposMy\VulkanPlayground\bin\x64\Debug\Engine.lib" /MACHINE:X64 x64temp\Debug\Engine.obj
+         Engine.vcxproj -> E:\GitReposMy\VulkanPlayground\bin\x64\Debug\Engine.exe
+       AppLocalFromInstalled:
+         C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe -ExecutionPolicy Bypass -noprofile -File "F:\GitHub_Repos\vcpkg\scripts\buildsystems\msbuild\applocal.ps1" "E:\GitReposMy\VulkanPlayground\bin\x64\Debug\Engine.exe" "F:\GitHub_Repos\vcpkg\installed\x64-windows\debug\bin" "x64temp\Debug\Engine.tlog\Engine.write.1u.tlog" "x64temp\Debug\vcpkg.applocal.log"
+         E:\GitReposMy\VulkanPlayground\bin\x64\Debug\glfw3.dll
+       _CopyFilesMarkedCopyLocal:
+         Creating "E:\GitReposMy\VulkanPlayground\Engine\x64temp\Debug\Engine.vcxproj.CopyComplete" because "AlwaysCreate" was specified.
+       FinalizeBuildStatus:
+         Deleting file "x64temp\Debug\Engine.tlog\unsuccessfulbuild".
+         Touching "x64temp\Debug\Engine.tlog\Engine.lastbuildstate".
+     1>Done Building Project "E:\GitReposMy\VulkanPlayground\Engine\Engine.vcxproj" (Build target(s)).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:07.01
